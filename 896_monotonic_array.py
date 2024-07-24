@@ -8,3 +8,6 @@ class Solution:
                 increasing = False
         return increasing or decreasing
 
+sol = Solution()
+nums = [1,2,3,4]
+print(sol.isMonotonic(nums))
