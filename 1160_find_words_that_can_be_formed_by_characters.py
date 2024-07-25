@@ -22,3 +22,10 @@ class Solution:
         
         return result
     
+# exmaple
+
+sol = Solution()
+words = ["cat","bt","hat","tree"]
+chars = "atach"
+
+print(sol.countCharacters(words, chars))
