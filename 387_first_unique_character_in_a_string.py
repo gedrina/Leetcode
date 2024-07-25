@@ -9,3 +9,9 @@ class Solution:
                     return i
         return -1
 
+# exmaple
+
+s1 = "loveleetcode"
+s2 = "leetcode"
+print(Solution().firstUniqChar(s1))
+print(Solution().firstUniqChar(s2))
