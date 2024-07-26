@@ -14,3 +14,11 @@ class Solution:
         
         return min(result)
     
+#example
+
+sol = Solution()
+
+text = 'nlaebolko'
+text2 = 'loonbalxballpoon'
+print(sol.maxNumberOfBalloons(text))
+print(sol.maxNumberOfBalloons(text2))
