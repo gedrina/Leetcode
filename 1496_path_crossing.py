@@ -19,3 +19,6 @@ class Solution:
             
         return False
 
+# example
+path = "NES"
+print(Solution().isPathCrossing(path))
