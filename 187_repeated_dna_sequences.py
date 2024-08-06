@@ -10,3 +10,6 @@ class Solution:
                 adn.add(s[i:i+10])
         return r_adn
 
+# example
+s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
+print(Solution().findRepeatedDnaSequences(s))
