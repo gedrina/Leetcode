@@ -11,7 +11,9 @@ class Solution:
         return count 
 
 
-
+# example
+num = 4
+print(Solution().countEven(num))
 
         
 
