@@ -1,7 +1,5 @@
-from typing import List
-
 class Solution:
-    def sortColors(self, nums: List[int]) -> None:
+    def sortColors(self, nums):
         """
         Do not return anything, modify nums in-place instead.
         """
@@ -17,7 +15,8 @@ class Solution:
             else: # nums[mid] == 2
                 nums[high], nums[mid] = nums[mid], nums[high]
                 high -= 1
-
+        return nums
 # Example
 
 nums = [2,0,2,1,1,0]
+print(Solution().sortColors(nums))
