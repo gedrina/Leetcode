@@ -18,3 +18,6 @@ class Solution:
     
         return False
         
+# Example
+num = 16
+print(Solution().isPerfectSquare(num))
