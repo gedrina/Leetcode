@@ -11,5 +11,9 @@ class Solution:
             return largest * 3
         else:
             return ""
+# example
+sol = Solution()
+num ="2300019"
 
+print(sol.largestGoodInteger(num))
 
